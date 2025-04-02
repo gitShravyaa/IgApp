@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT ACADEMICS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#2F8D89"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/academicimg"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="348dp"
+        android:padding="5dp"
+        android:text="The Academic Branch takes care of the Academic related activities of students of our University.This Branch is currently headed under the dynamic leadership of Dean (Academic Affairs) - Prof. Arun Sharma.\n\nFor issuance of Academic Certificates / documents / Provisional Degree / etc., students are required to apply onhttps://igdtuw.in/IGDTUW . The required document will be issued within 05 working days from the date of receiving the request.\n\nAlternately, one can contact us via email at academics@igdtuw.ac.in or deanacademics@igdtuw.ac.in. Further, it is requested to strictly adhere to the above timings for visiting the Academic Branch and be polite and maintain discipline."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- Buttons Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Time-Table Button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#2F8D89"
+            android:padding="10dp"
+            android:text="Time-Table"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Schedule & Syllabus Button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2F8D89"
+            android:padding="10dp"
+            android:text="Schedule and Syllabus"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+    <TextView
+        android:layout_width="386dp"
+        android:layout_height="148dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Indira Gandhi Delhi Technical University for Women"
+        android:textColor="#004D40"
+        android:textSize="33sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empowering Women through Education and Innovation"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:textColor="#757575"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Welcome Button -->
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#2e7d74"
+        android:gravity="center"/>
+</LinearLayout>

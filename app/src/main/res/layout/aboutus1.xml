@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#EAEDED"
+android:padding="16dp">
+
+    <!-- Header Section -->
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="VISION"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:padding="12dp"
+    android:textColor="#FFFFFF"
+    android:background="#2E7D74" />
+    <!-- Content Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:padding="12dp"
+        android:margin="10dp"
+        android:elevation="4dp">
+
+        <!-- Vision Text -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="To make India a Knowledge Society and Knowledge Economy by empowering the women of our country through education in Engineering, Science, Management, and Technology. To become one of the top technical universities in the country known for its value-based, quality technical education supported with industry-relevant research, with a focus on environmental and social issues."
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColor="#000000" />
+        <!-- Vision Image -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="239dp"
+            android:layout_weight="1"
+            android:background="#D5DBDB"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/visionimg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EAEDED"
+        android:orientation="vertical"
+        android:padding_left="10dp">
+
+        <!-- Header Section -->
+
+        <!-- Content Layout -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2E7D74"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="MISSION"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:margin="10dp"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <!-- Mission Text -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="390dp"
+                android:layout_weight="2"
+                android:padding="10dp"
+                android:text="➤ To foster an environment for excellence in professional education and ensure active participation of women in the field of Engineering, Science, Management, and Technology, while striking a work-life balance.\n\n➤ To start new professional courses for women in sunrise disciplines and forge alliances with industry to impart industry-relevant education.\n\n➤ To emancipate women through pursuit of knowledge, enabling them to gain equal status in society through realization of their rights and responsibilities.\n\n➤ To develop sustainable systems and state-of-the-art infrastructure to enable Indian women to become future leaders, managers, researchers, and productive team players in the field of science, technology, and management."
+                android:textColor="#000000"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+

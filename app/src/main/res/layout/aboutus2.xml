@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#EAEAEA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Vision Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#2F8D89"
+            android:padding="10dp"
+            android:marginBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VISION"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFFFFF"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="To make India a Knowledge Society and Knowledge Economy by empowering the women of our country through education in Engineering, Science, Management, and Technology. \nTo become one of the top technical universities in the country known for its value-based, quality technical education supported with industry-relevant research, with a focus on environmental and social issues."
+                    android:textSize="16sp"
+                    android:textColor="#000000"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="230dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/visionimg" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Mission Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#2F8D89"
+            android:padding="10dp"
+            android:marginBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MISSION"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFFFFF"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="To foster an environment for excellence in professional education and ensure active participation of women in the field of Engineering, Science, Management, and Technology, while striking a work-life balance.\n\n➤ To start new professional courses for women in sunrise disciplines and forge alliances with industry to impart industry-relevant education.\n\n➤ To emancipate women through pursuit of knowledge, enabling them to gain equal status in society through realization of their rights and responsibilities.\n\n➤ To develop sustainable systems and state-of-the-art infrastructure to enable Indian women to become future leaders, managers, researchers, and productive team players in the field of science, technology, and management."
+                    android:textSize="16sp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Objectives Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#2F8D89"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OBJECTIVES"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="#2F8D89"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As per IGDTUW Act 2012 vide clause 6 the objectives of the University shall be:-"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:background="#FFFFFF"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="> To evolve and impart comprehensive professional education with focus on but not restricted to Engineering, Technology, Sciences, Management and such areas as deemed fit.\n\n> To facilitate and promote studies leading to award of degrees, diplomas and certificates.\n\n> To achieve excellence in Engineering, Technology, Sciences, Management and allied areas and matters connected therewith or incidental thereto.\n\n > To establish Centres of Advanced Studies, Research and innovation in various relevant areas of Sciences, Engineering, Technology, Management and allied areas.\n\n> To promote development of products, services and entrepreneurship.\n\n> To be industry relevant and to create an impact on the academic community in India and abroad.\n\n> To establish linkages between the University, Industries, Research and Development Organizations and other Universities/Institutes for collaborative (including dual degree) teaching and research programmes in India and abroad.\n\n> To promote global interaction through faculty and student exchange in the areas of Science, Engineering, Technology, Management and other allied areas as deemed fit.\n\n> To set up innovation centres, knowledge Park and Technology incubators to foster Techno-entrepreneurship, innovation and new product development.\n\n> To disseminate knowledge and contribute towards nation building and faculty development by organizing expert lectures, seminars, symposia, workshops, conferences, summer and winter schools, short-term training programs and refresher courses from time to time.\n\n> To promote and foster cultural and ethical values with a view to promote and foster professional morality, research integrity, globally acceptable business ethics and morals for professionals.\n\n> To publish periodicals, treatises, studies, books, reports, journals and other literatures on subjects pertinent to academic areas of the university, including electronic resources."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:background="#FFFFFF"
+                android:textColor="#000000"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
