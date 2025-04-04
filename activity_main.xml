@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/button_style"
-                android:text="ACADEMICS"
+                android:text="ACADEMIC"
                 android:textColor="#FFFFFF" />
         </LinearLayout>
 
